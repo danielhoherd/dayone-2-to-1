@@ -6,3 +6,10 @@ build/
 
 .tox/
 .coverage
+
+.idea
+
+*.swp
+*.swo
+
+.DS_Store

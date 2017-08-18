@@ -1,10 +1,27 @@
 import click
+import json
+import sys
+
+
+class DayoneConverter():
+    """A class for converting DayOne 2 entries to DayOne Classic entries"""
+
+    @staticmethod
+    def load_journal(filename):
+        entries = json.load(filename)
+        print(entries)
 
 
 @click.command()
-@click.option('--as-cowboy', '-c', is_flag=True, help='Greet as a cowboy.')
-@click.argument('name', default='world', required=False)
-def main(name, as_cowboy):
+@click.argument('journal', default='Journal.json', required=False)
+def main(journal):
     """Converts DayOne2 journal.json to DayOne Classic xml"""
-    greet = 'Howdy' if as_cowboy else 'Hi there'
-    click.echo('{0}, {1}.'.format(greet, name))
+    click.echo("working with {}".format(journal))
+    j = DayoneConverter()
+    with file(journal) as f:
+        try:
+            j.load_journal(f)
+        except ValueError:
+            sys.stderr.write("ERROR: {0} could not be parsed\n".format(journal))
+            raise
+

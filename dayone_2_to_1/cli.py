@@ -1,5 +1,5 @@
 import click
-from DayoneConverter import DayoneConverter
+from dayone_2_to_1 import DayoneConverter
 
 @click.command()
 @click.argument('journal', default='Journal.json', required=False)

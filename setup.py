@@ -3,7 +3,7 @@ Converts DayOne2 journal.json to DayOne Classic xml
 """
 from setuptools import find_packages, setup
 
-dependencies = ['click']
+dependencies = ['click', 'python-dateutil']
 
 setup(
     name='dayone-2-to-1',

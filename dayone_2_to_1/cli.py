@@ -1,4 +1,5 @@
 import click
+from dateutil import parser
 import json
 import plistlib
 import pprint
@@ -9,6 +10,23 @@ pp = pprint.PrettyPrinter(indent=4)
 
 class DayoneConverter():
     """A class for converting DayOne 2 entries to DayOne Classic entries"""
+
+    # TODO: Finish these conversions
+    converted_fields = {
+        'Creation Date': 'creationDate',
+        'Entry Text': 'text',
+        'Location': 'location',
+        'Starred': 'starred',
+        'Time Zone': 'timeZone',
+        'UUID': 'uuid',
+        'Weather': 'weather',
+
+    }
+
+    new_fields = {
+        'Creator': {'Software Agent': 'dayone-2-to-1'},
+        'Tags': '#dayone-2-to-1'
+    }
 
     def __init__(self):
         self.entries = dict()
@@ -30,16 +48,13 @@ class DayoneConverter():
     def dump_plists(self):
         for entry in self.entries:
             entry.setdefault('tags', list())
-            entry['tags'].append('#dayone-2-to-1')
-            entry['Entry Text'] = entry.pop('text')
-            entry['Location'] = entry.pop('location')
-            entry['Weather'] = entry.pop('weather')
-            entry['Creator'] = {'Software Agent': 'dayone-2-to-1'}
-            entry['Creation Date'] = entry.pop('creationDate')
-            entry['Starred'] = entry.pop('starred')
-            entry['Time Zone'] = entry.pop('timeZone')
-            entry['UUID'] = entry.pop('uuid')
-            # TODO: Finish these conversions
+            for k, v in self.new_fields.items():
+                entry.setdefault(k, list())
+                entry[k].append(v)
+            for k, v in self.converted_fields.items():
+                entry[k] = entry.pop(v)
+            entry['Creation Date'] = parser.parse(entry['Creation Date'])
+
             plistlib.writePlist(entry, '{}.doentry'.format(entry['UUID']))
 
     def __iter__(self):

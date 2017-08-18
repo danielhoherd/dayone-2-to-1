@@ -1,5 +1,6 @@
 import click
 import json
+import plistlib
 import sys
 
 
@@ -8,7 +9,12 @@ class DayoneConverter():
 
     @staticmethod
     def load_journal(filename):
-        entries = json.load(filename)
+        with file(filename) as f:
+            try:
+                entries = json.load(f)
+            except ValueError:
+                sys.stderr.write("ERROR: {0} could not be parsed\n".format(f))
+                raise
         print(entries)
 
 
@@ -18,10 +24,5 @@ def main(journal):
     """Converts DayOne2 journal.json to DayOne Classic xml"""
     click.echo("working with {}".format(journal))
     j = DayoneConverter()
-    with file(journal) as f:
-        try:
-            j.load_journal(f)
-        except ValueError:
-            sys.stderr.write("ERROR: {0} could not be parsed\n".format(journal))
-            raise
+    j.load_journal(journal)
 

@@ -1,0 +1,50 @@
+{
+"metadata" : {
+  "version" : "1.0"
+},
+"entries" : [
+{
+  "starred" : true,
+  "location" : {
+    "localityName" : "Tp.Long Xuyên",
+    "country" : "Vietnam",
+    "longitude" : 105.4371,
+    "administrativeArea" : "An Giang",
+    "placeName" : "tiNiWorld Vincom An Giang",
+    "latitude" : 10.38365,
+    "foursquareID" : "56a3ac07498e5b70b7912031"
+  },
+  "creationDate" : "2017-08-20T07:39:11Z",
+  "userActivity" : {
+    "activityName" : "Stationary",
+    "stepCount" : 1880
+  },
+  "text" : "DayOne-2-to-1 migration test.",
+  "weather" : {
+    "sunsetDate" : "2017-08-20T11:12:54Z",
+    "temperatureCelsius" : 28,
+    "weatherServiceName" : "HAMweather",
+    "windBearing" : 270,
+    "sunriseDate" : "2017-08-19T22:48:04Z",
+    "conditionsDescription" : "Mostly Cloudy",
+    "pressureMB" : 1007,
+    "visibilityKM" : 48.28032,
+    "relativeHumidity" : 79,
+    "windSpeedKPH" : 22,
+    "weatherCode" : "mostly-cloudy",
+    "windChillCelsius" : 28
+  },
+  "music" : {
+    "albumYear" : 0,
+    "album" : "Mythologie",
+    "track" : "Zero",
+    "artist" : "Delerium"
+  },
+  "timeZone" : "Asia\/Ho_Chi_Minh",
+  "uuid" : "C71AFC1864DD4307838631683D0EFC9A",
+  "tags" : [
+    "dayone-2-to-1 test"
+  ],
+  "duration" : 0
+}
+]}

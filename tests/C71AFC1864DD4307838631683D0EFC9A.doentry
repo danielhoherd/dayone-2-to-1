@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<string>Stationary</string>
+	<key>Creation Date</key>
+	<date>2017-08-20T07:39:11Z</date>
+	<key>Creator</key>
+	<dict>
+		<key>Device Agent</key>
+		<string>iPhone/iPhone8,1</string>
+		<key>Generation Date</key>
+		<date>2017-08-20T07:39:11Z</date>
+		<key>Host Name</key>
+		<string>dPhone6s</string>
+		<key>OS Agent</key>
+		<string>iOS/10.3.3</string>
+		<key>Software Agent</key>
+		<string>Day One iOS/1.17.3</string>
+	</dict>
+	<key>Entry Text</key>
+	<string>DayOne-2-to-1 migration test.</string>
+	<key>Location</key>
+	<dict>
+		<key>Administrative Area</key>
+		<string>An Giang</string>
+		<key>Country</key>
+		<string>Vietnam</string>
+		<key>Foursquare ID</key>
+		<string>56a3ac07498e5b70b7912031</string>
+		<key>Latitude</key>
+		<real>10.38365405620784</real>
+		<key>Locality</key>
+		<string>Tp.Long Xuyên</string>
+		<key>Longitude</key>
+		<real>105.43711179354285</real>
+		<key>Place Name</key>
+		<string>tiNiWorld Vincom An Giang</string>
+	</dict>
+	<key>Music</key>
+	<dict>
+		<key>Album</key>
+		<string>Mythologie</string>
+		<key>Artist</key>
+		<string>Delerium</string>
+		<key>Track</key>
+		<string>Zero</string>
+	</dict>
+	<key>Starred</key>
+	<true/>
+	<key>Step Count</key>
+	<integer>1880</integer>
+	<key>Tags</key>
+	<array>
+		<string>dayone-2-to-1 test</string>
+	</array>
+	<key>Time Zone</key>
+	<string>Asia/Ho_Chi_Minh</string>
+	<key>UUID</key>
+	<string>C71AFC1864DD4307838631683D0EFC9A</string>
+	<key>Weather</key>
+	<dict>
+		<key>Celsius</key>
+		<string>28</string>
+		<key>Description</key>
+		<string>Mostly Cloudy</string>
+		<key>Fahrenheit</key>
+		<string>82</string>
+		<key>IconName</key>
+		<string>mcloudy.png</string>
+		<key>Pressure MB</key>
+		<integer>1007</integer>
+		<key>Relative Humidity</key>
+		<integer>79</integer>
+		<key>Service</key>
+		<string>HAMweather</string>
+		<key>Sunrise Date</key>
+		<date>2017-08-19T22:48:04Z</date>
+		<key>Sunset Date</key>
+		<date>2017-08-20T11:12:54Z</date>
+		<key>Visibility KM</key>
+		<real>48.280320000000003</real>
+		<key>Wind Bearing</key>
+		<integer>270</integer>
+		<key>Wind Chill Celsius</key>
+		<integer>28</integer>
+		<key>Wind Speed KPH</key>
+		<integer>22</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,50 @@
+Dict {
+    userActivity = Dict {
+        stepCount = 1880
+        activityName = Stationary
+    }
+    starred = true
+    location = Dict {
+        latitude = 10.383650
+        longitude = 105.437103
+        country = Vietnam
+        localityName = Tp.Long Xuyên
+        placeName = tiNiWorld Vincom An Giang
+        administrativeArea = An Giang
+        foursquareID = 56a3ac07498e5b70b7912031
+    }
+    creationDate = 2017-08-20T07:39:11Z
+    timeZone = Asia/Ho_Chi_Minh
+    text = DayOne-2-to-1 migration test.
+    uuid = C71AFC1864DD4307838631683D0EFC9A
+
+
+
+
+
+
+    duration = 0
+    music = Dict {
+        artist = Delerium
+        track = Zero
+        albumYear = 0
+        album = Mythologie
+    }
+    tags = Array {
+        dayone-2-to-1 test
+    }
+    weather = Dict {
+        windChillCelsius = 28
+        temperatureCelsius = 28
+        weatherServiceName = HAMweather
+        windBearing = 270
+        sunriseDate = 2017-08-19T22:48:04Z
+        conditionsDescription = Mostly Cloudy
+        visibilityKM = 48.280319
+        pressureMB = 1007
+        relativeHumidity = 79
+        windSpeedKPH = 22
+        weatherCode = mostly-cloudy
+        sunsetDate = 2017-08-20T11:12:54Z
+    }
+}

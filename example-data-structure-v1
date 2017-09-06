@@ -1,0 +1,52 @@
+Dict {
+    Step Count = 1880
+    Activity = Stationary
+
+
+    Starred = true
+    Location = Dict {
+        Latitude = 10.383654
+        Longitude = 105.437111
+        Country = Vietnam
+        Locality = Tp.Long Xuyên
+        Place Name = tiNiWorld Vincom An Giang
+        Administrative Area = An Giang
+        Foursquare ID = 56a3ac07498e5b70b7912031
+    }
+    Creation Date = Sun Aug 20 14:39:11 +07 2017
+    Time Zone = Asia/Ho_Chi_Minh
+    Entry Text = DayOne-2-to-1 migration test.
+    UUID = C71AFC1864DD4307838631683D0EFC9A
+    Creator = Dict {
+        Generation Date = Sun Aug 20 14:39:11 +07 2017
+        Software Agent = Day One iOS/1.17.3
+        Device Agent = iPhone/iPhone8,1
+        Host Name = dPhone6s
+        OS Agent = iOS/10.3.3
+    }
+    Music = Dict {
+        Artist = Delerium
+        Track = Zero
+        Album = Mythologie
+    }
+
+    Tags = Array {
+        dayone-2-to-1 test
+    }
+    Weather = Dict {
+        Wind Chill Celsius = 28
+        Visibility KM = 48.280319
+        Wind Bearing = 270
+        Description = Mostly Cloudy
+        Wind Speed KPH = 22
+        Relative Humidity = 79
+        Sunrise Date = Sun Aug 20 05:48:04 +07 2017
+        Fahrenheit = 82
+        Sunset Date = Sun Aug 20 18:12:54 +07 2017
+        Pressure MB = 1007
+        Service = HAMweather
+        Celsius = 28
+        IconName = mcloudy.png
+    }
+}
+

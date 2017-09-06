@@ -8,20 +8,20 @@ class DayoneConverter():
     """A class for converting DayOne 2 entries to DayOne Classic entries"""
 
     # TODO: Finish these conversions
+    # or... make a function to convert each field, then call each function individually
     converted_fields = {
         'Creation Date': 'creationDate',
+        'UUID': 'uuid',
         'Entry Text': 'text',
         'Location': 'location',
         'Starred': 'starred',
         'Time Zone': 'timeZone',
-        'UUID': 'uuid',
         'Weather': 'weather',
-
     }
 
     new_fields = {
         'Creator': {'Software Agent': 'dayone-2-to-1'},
-        'Tags': '#dayone-2-to-1'
+        'Tags': 'dayone-2-to-1'
     }
 
     def __init__(self):

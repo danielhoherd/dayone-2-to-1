@@ -18,4 +18,3 @@ Simply run:
 To use it:
 
     $ dayone-2-to-1 --help
-

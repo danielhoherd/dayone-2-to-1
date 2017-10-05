@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Converts DayOne2 journal.json to DayOne Classic xml
 """

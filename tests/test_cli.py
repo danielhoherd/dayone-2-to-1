@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pytest
 from click.testing import CliRunner
 from dayone_2_to_1 import cli

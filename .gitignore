@@ -14,3 +14,5 @@ build/
 *.swo
 
 .DS_Store
+
+*.doentry

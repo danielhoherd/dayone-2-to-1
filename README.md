@@ -1,6 +1,6 @@
 # dayone 2-to-1
 
-Convert DayOne2 journal.json to DayOne Classic plist files.
+Convert DayOne2 Journal.json to DayOne Classic plist files.
 
 
 # Installation

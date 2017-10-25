@@ -1,10 +1,11 @@
+# -*- coding: utf-8 -*-
 from dateutil import parser
 import json
 import plistlib
 import sys
 
 
-class DayoneConverter():
+class DayOneConverter:
     """A class for converting DayOne 2 entries to DayOne Classic entries"""
 
     # TODO: Finish these conversions
@@ -33,7 +34,7 @@ class DayoneConverter():
             try:
                 entries = json.load(f)
             except ValueError:
-                sys.stderr.write("ERROR: {0} could not be parsed\n".format(f))
+                sys.stderr.write("ERROR: {} could not be parsed\n".format(f))
                 raise
         self.entries = entries['entries']
         self.metadata = entries['metadata']

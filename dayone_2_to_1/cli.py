@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import click
 import os
-from dayone_2_to_1 import DayoneConverter
+from dayone_2_to_1 import DayOneConverter
 
 
 def validate_filename(ctx, opts, args):
@@ -19,6 +19,6 @@ def validate_filename(ctx, opts, args):
 def main(journal):
     """Converts DayOne2 Journal.json to DayOne Classic xml files"""
 
-    j = DayoneConverter()
+    j = DayOneConverter()
     j.load_journal(journal)
     j.dump_plists()

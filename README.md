@@ -17,9 +17,10 @@ Simply run:
 
 # Usage
 
-To use it:
+To use it, first **back up your Journal**, then:
 
-    $ dayone-2-to-1 --help
+    $ cd Journal.dayone/entries/
+    $ dayone-2-to-1 /path/to/Journal.json
 
 # Limitations
 

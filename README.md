@@ -31,3 +31,4 @@ To use it:
 - Add logging
 - Write tests
 - Make classes for v1 and v2 for uses other than just conversion
+- Lots of small things, since this is a work in progress
